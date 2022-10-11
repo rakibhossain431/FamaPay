@@ -14,30 +14,107 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <!-- Google Web Fonts -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="wrapper" id="wrapper">
         <div id="main-content">
+          <!-- header start -->
+          <header class="header header1">
+            <div id="navbar-wrap" class="navbar-wrap">
+              <div class="container">
+                <div class="navbar-content">
+                  <div class="site-branding">
+                    <a href="index.html" class="logo logo-light"><img src="assets/image/Logo 1.png" alt="Logo"></a>
+                  </div>
+                  <nav id="dropdown" class="template-main-menu menu-text-dark">
+                    <nav class="mainmenu-nav" id="mobilemenu-popup">
+                        
+                    </nav>
+                  </nav>
+                  <!-- mobail menu start -->
+                  <div class="mobail-menu data-tab-content">
+                  <div class="mobail-menu-item">
+                    <div class="mobail-menu-list">
+                      <h6>Discover SMC</h6>
+                      <ul class="mobail-nav-item">
+                        <li><a href="#">Consumers</a></li>
+                        <li><a href="#">Enterprise</a></li>               
+                        <li><a href="#">Governments</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Partners</a></li>
+                      </ul>
+                    </div>
+                    <div class="mobail-menu-list">
+                      <h6>SMC Solutions</h6>
+                      <ul class="mobail-nav-item">
+                          <li><a href="#">Consumers</a></li>
+                          <li><a href="#">Enterprise</a></li>
+                          <li><a href="#">Governments</a></li>
+
+                      </ul>
+                    </div>
+                    <div class="mobail-menu-list">
+                      <h6>About SMC Labs</h6>
+                      <ul class="mobail-nav-item">
+                        <li><a href="#">Consumers</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                        <li><a href="#">Governments</a></li>
+                      </ul>
+                    </div>
+                    
+                  </div>
+                  <div class="mobail-menu-list down">
+                    <h6>Help Center</h6>
+                    <h6>Careers</h6>
+                  </div>
+                  <div class="col-xl-2 col-sm-12 col-sm-12 mobail-btn">
+                    <a class="mobail-link" href="#">Get in Touch </a>
+                </div>
+                </div>
+                  <!-- mobail menu end -->
+                  <ul class="header-action-items d-flex">
+                    <div class="entry-buttons nav-btn">
+                      <button class="btn" type="button" >Signup</button>
+                    </div>
+                    <li class="sidemenu-btn">
+                      <!-- <button class="btn-wrap" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuRight"> -->
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <!-- </button> -->
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </header>
+    
+          <!-- header end -->
           <!--=====================================-->
           <!--=            Banner Start           =-->
           <!--=====================================-->
-          <section>
-              <div class="row align-items-center slick-slider">
-                <div class="">
-                  <div class="container">
-                    <div class="row">
-                      <div class="hero-left col-lg-7 ">
-                        <div class="hero-content">
+          <section class="banner banner-1">
+           <div class="hero-slider">
+            <div>
+              <div class="container">
+                <div class="hero-content">
+                      <div class="hero-left  ">
+                        <div class="hero-left-content">
                           <div class="entry-content">
                            <h1 class="enty-title">One App <br> To Save, Spend, and <br> Send Money </h1>
                            <p class="enty-subtitle">FamaPay is the Everyday Financial SuperApp for Everyone </p>
+                           <div class="hero-right-img mobile-hero-right-img">
+                            <img class="hero-img" src="assets/image/hero-img.png" alt="">
+                          </div>
                            <div class="hero-input-content">
                               <input class="hero-input" type="text" placeholder="Enter your mobile number">
+                              <p class="enty-subtitle2 enty-subtitle2-mobail">We’ll text you a download link. Signup in less than 2 minutes. </p>
                               <button class="btn" type="button" >Signup</button>
                            </div>
-                           <p class="enty-subtitle2">We’ll text you a download link. Signup in less than 2 minutes. </p>
+                           <p class="enty-subtitle2 enty-subtitle2-lg">We’ll text you a download link. Signup in less than 2 minutes. </p>
                           </div>
                         </div>
                         <div class="hero-icon-list">
@@ -57,56 +134,240 @@
                           </ul>
                         </div>
                       </div>
-                      <div class="hero-right col-lg-5">
-                          <div class="hero-right-img">
+                      <div class="hero-right ">
+                          <div class="hero-right-img hero-right-img-lg">
                             <img class="hero-img" src="assets/image/hero-img.png" alt="">
                           </div>
                       </div>
-                    </div>
-                  </div>
                 </div>
-                <div class="">
-                  <!-- <div class="container">
-                    <div class="hero-left col-lg-8 ">
-                      <div class="hero-content">
-                        <div class="entry-content">
-                         <h1>One App <br> To Save, Spend, and <br> Send Money </h1>
-                         <p>FamaPay is the Everyday Financial SuperApp for Everyone </p>
-                         <div class="hero-input">
-                            <input type="text" placeholder="Enter your mobile number">
-                            <button class="btn" type="button" >Signup</button>
-                         </div>
-                         <p>We’ll text you a download link. Signup in less than 2 minutes. </p>
+              </div>
+             </div>
+            <div>
+              <div class="container">
+                <div class="hero-content">
+                      <div class="hero-left  ">
+                        <div class="hero-left-content">
+                          <div class="entry-content">
+                           <h1 class="enty-title">One App <br> To Save, Spend, and <br> Send Money </h1>
+                           <p class="enty-subtitle">FamaPay is the Everyday Financial SuperApp for Everyone </p>
+                           <div class="hero-right-img mobile-hero-right-img">
+                            <img class="hero-img" src="assets/image/hero-img.png" alt="">
+                          </div>
+                           <div class="hero-input-content">
+                              <input class="hero-input" type="text" placeholder="Enter your mobile number">
+                              <p class="enty-subtitle2 enty-subtitle2-mobail">We’ll text you a download link. Signup in less than 2 minutes. </p>
+                              <button class="btn" type="button" >Signup</button>
+                           </div>
+                           <p class="enty-subtitle2 enty-subtitle2-lg">We’ll text you a download link. Signup in less than 2 minutes. </p>
+                          </div>
+                        </div>
+                        <div class="hero-icon-list">
+                          <ul class="hero-socail-link d-flex">
+                              <li>
+                                  <a class="d-flex align-items-center" href="" >
+                                      <i class=" fab fa-apple"></i>
+                                      <span class="link_name">App Store</span>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="google-play d-flex align-items-center" href="">
+                                      <i class="fab fa-google-play"></i>
+                                      <span class="link_name">Google Play</span>
+                                  </a>
+                              </li>
+                          </ul>
                         </div>
                       </div>
-                      <div class="hero-icon">
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <i class="fab fa-apple"></i>
-                                    <span class="link_name">App Store</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fab fa-google-play"></i>
-                                    <span class="link_name">Google Play</span>
-                                </a>
-                            </li>
-                        </ul>
+                      <div class="hero-right ">
+                          <div class="hero-right-img hero-right-img-lg">
+                            <img class="hero-img" src="assets/image/hero-img.png" alt="">
+                          </div>
                       </div>
-                    </div>
-                    <div class="hero-right col-lg-4">
-    
-                    </div>
-                  </div> -->
                 </div>
-            </div>
+              </div>
+             </div>
+           </div>
           </section>
+              
           <!--=====================================-->
           <!--=             Banner End            =-->
           <!--=====================================-->
+
+          <!-- services start -->
+          <section class="service">
+            <div class="container">
+              <div class="service-content">
+                <h3 class="service-title">How Can FamaPay Help You?</h3>
+                <div class="service-details ">
+                  <div class="service-item">
+                    <div class="service-img">
+                      <img src="assets/image/service/banking.png" alt="banking-icon">
+                    </div>
+                    <h5>Bankign </h5>
+                  </div>
+                  <div class="service-item">
+                    <div class="service-img">
+                      <img src="assets/image/service/devit-card.png" alt="davit-icon">
+                    </div>
+                    <h5>Debit Card  </h5>
+                  </div>
+                  <div class="service-item">
+                    <div class="service-img">
+                      <img src="assets/image/service/devit-card.png" alt="davit-icon">
+                    </div>
+                    <h5>Wallet</h5>
+                  </div>
+                  <div class="service-item">
+                    <div class="service-img">
+                      <img src="assets/image/service/send-many.png" alt="davit-icon">
+                    </div>
+                    <h5>Send Money</h5>
+                  </div>
+                  <div class="service-item">
+                    <div class="service-img">
+                      <img src="assets/image/service/pay-bill.png" alt="davit-icon">
+                    </div>
+                    <h5>Pay Bills </h5>
+                  </div>
+                  <div class="service-item">
+                    <div class="service-img">
+                      <img src="assets/image/service/air-time.png" alt="davit-icon">
+                    </div>
+                    <h5>Air Time </h5>
+                  </div>
+  
+                </div>
+              </div>
+            </div>
+
+          </section>
+          <!-- services end -->
+
+          <!-- futures start -->
+          <section class="futures futures-1">
+            <div class="container">
+              <div class="row justify-content-between">
+                <div class="col-lg-5">
+                  <h3 class="futures-title">Banking Without Boundaries </h3>
+                  <img src="assets/image/futures/Rectangle 8.png" alt="img">
+                  <p class="futuer-text" >No Credit Check, No Minimum Balances, and No Monthly Fees. Just sign up and get started with your own digital banking account. </p>
+                  <div class="entry-buttons">
+                    <button class="btn futures-btn" type="button" >Open an Account</button>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <h3 class="futures-title">Personal Spending Cards  </h3>
+                  <img src="assets/image/futures/Rectangle 8.png" alt="img">
+                  <p class="futuer-text">Order Virtual or Physical Cards from our app to safely shop online and in-stores. Virtual cards are easy to create and ready for use instantly.  </p>
+                  <div class="entry-buttons ">
+                    <button class="btn futures-btn" type="button" >Open an Account</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- futures end -->
+          <!-- futures-2 start -->
+          <section class="futures futures-2">
+            <div class="container">
+              <div class="row futures-2-content col-md-p-0 ">
+                <div class="col-lg-5 d-flex align-items-center">
+                  <h3 class="futures2-title">Ditch The Clutter. FamaPay is The One App for All Your Financial Needs. </h3>
+                  
+                </div>
+                <div class="col-lg-5">
+                  <div class="f-right-content">
+                    <div class="service-img fu-img">
+                      <img src="assets/image/service/wallte.png" alt="davit-icon">
+                    </div>
+                    <article class="futures-2-text">
+                      <h4>Digital Wallet </h4>
+                      <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit </p>
+                    </article>
+                      
+                  </div>
+                  <div class="f-right-content">
+                    <div class="service-img fu-img">
+                      <img src="assets/image/service/send-many.png" alt="davit-icon">
+                    </div>
+                    <article class="futures-2-text">
+                      <h4>Send & Receive Money  </h4>
+                      <p>Send Money To Over 195+<br> Countries from The Same App  </p>
+                    </article>
+                      
+                  </div>
+                  <div class="f-right-content">
+                    <div class="service-img fu-img">
+                      <img src="assets/image/service/pay-bill.png" alt="davit-icon">
+                    </div>
+                    <article class="futures-2-text">
+                      <h4>Pay Your Bills  </h4>
+                      <p>Pay Bills To Over 7000 Vendors,<br> More Coming Soon.  </p>
+                    </article>
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- futures-2 end -->
+          <!-- famapay-details-start -->
+          <section class="famapay-details">
+            <div class="container">
+              <div class="row justify-content-around">
+                <div class="col-lg-5">
+                  <h2 class="famapay-title">A Whole New Way To Save   </h2>
+                  <img class="fama-img-lg" src="assets/image/details/f-2.png" alt="img">
+                  <p class="famapay-text" >Create Savings Buckets Within The Same Account To Visualize Your Savings Goals and Get There Faster. Earn Competitive Yield on All Your Deposits. </p>
+                  <div class="entry-buttons">
+                    <button class="btn futures-btn" type="button" >Learn More</button>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <img class="fama-img-sm" src="assets/image/details/f-2.png" alt="img">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="famapay-details">
+            <div class="container">
+              <div class="row justify-content-around">
+                <div class="col-lg-5">
+                  <img class="fama-img-sm" src="assets/image/details/f-1.png" alt="img">
+                </div>
+                <div class="col-lg-5">
+                  <h2 class="famapay-title">A Whole New Way To Save   </h2>
+                  <img class="fama-img-lg" src="assets/image/details/f-1.png" alt="img">
+                  <p class="famapay-text" >Create Savings Buckets Within The Same Account To Visualize Your Savings Goals and Get There Faster. Earn Competitive Yield on All Your Deposits. </p>
+                  <div class="entry-buttons">
+                    <button class="btn futures-btn" type="button" >Learn More</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+          <section class="famapay-details">
+            <div class="container">
+              <div class="row justify-content-around">
+                <div class="col-lg-5">
+                  <h2 class="famapay-title">A Whole New Way To Save   </h2>
+                  <img class="fama-img-lg" src="assets/image/details/f-3.png" alt="img">
+                  <p class="famapay-text" >Create Savings Buckets Within The Same Account To Visualize Your Savings Goals and Get There Faster. Earn Competitive Yield on All Your Deposits. </p>
+                  <div class="entry-buttons">
+                    <button class="btn futures-btn" type="button" >Learn More</button>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <img class="fama-img-sm" src="assets/image/details/f-3.png" alt="img">
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- famapay-details-end -->
+        </div>
       </div>
+
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
