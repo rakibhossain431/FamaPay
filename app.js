@@ -17,4 +17,15 @@ const menu = document.querySelector(".mobail-menu")
 bar.addEventListener("click", ()=>{
     menu.classList.toggle("show")
 })
+bar.addEventListener("click", ()=>{
+    
+    if(bar.firstElementChild.classList.contains("fa-bars")){
+
+        bar.firstElementChild.classList.replace("fa-bars", "fa-times")
+    }
+    else{
+        bar.firstElementChild.classList.replace("fa-times", "fa-bars")
+
+    }
+})
 
