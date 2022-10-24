@@ -29,3 +29,13 @@ bar.addEventListener("click", ()=>{
     }
 })
 
+var tabElms = document.querySelectorAll('[data-bs-toggle="list"]')
+var content = document.querySelectorAll('.list-group-item')
+
+for (variable of tabElms) {
+    variable.addEventListener('click', (e)=>{
+        console.log(e.target.classList.toggle('active'))
+    })
+  }
+  
+
